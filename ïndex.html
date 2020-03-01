@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    
+    <!-- JQUERY PLUGIN LINK https://www.jqueryscript.net/slider/carousel-h-smart-thumbnail.html
+    
+    This awesome jQuery plugin is developed by HaxxanRaxa. For more Advanced Usages, please check the demo page or visit the official website.
+    -->
+    
+	<title> Title </title>
+    
+    <link rel="stylesheet" href="css/h-smart-thumbnail.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/h-smart-thumbnail.js"></script>
+
+</head>
+
+<body>
+    <div class="example">
+        <ul>
+            <li>
+                <img src="img/elephant-4389434_640.jpg">
+            </li>
+            <li>
+                <img src="img/galaxy-4828098_640.jpg">
+            </li>
+            <li>
+                <img src="img/mosque-4196145_640.jpg">
+            </li>
+            <li>
+                <img src="img/raven-4874366_640.jpg">
+            </li>
+        </ul>
+    </div>
+    <script>
+        $(function(){
+            $('.example').hSmartThumbnail();
+        });
+    </script>
+</body>
+</html>
